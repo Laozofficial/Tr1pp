@@ -1,0 +1,23 @@
+.nav-page {
+  padding: 20%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  width: 100% !important;
+}
+
+.header {
+  background-color: white;
+  color: black;
+}
+
+.footer-content {
+  padding-top: 34%;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}

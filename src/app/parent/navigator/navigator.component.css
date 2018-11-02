@@ -1,0 +1,31 @@
+.ig {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.line {
+  width: 448px;
+  height: 0;
+  border: solid 1px #1a191a;
+
+}
+
+.button {
+  background-color: transparent;
+  background-blend-mode: inherit;
+  margin-bottom: 0px;
+  font-size: 1em;
+  font-weight: bolder;
+  padding-bottom: 0px;
+  border-bottom: 2px solid black;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.push {
+  padding-top: 10%;
+  box-shadow: 10px 10px 11px gray;
+}
