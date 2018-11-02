@@ -12,7 +12,7 @@ import { ParentService } from "../parent.service";
   providers: [ParentService]
 })
 export class ImagesComponent implements OnInit {
-  constructor(public parentservice: ParentService) {}
+  constructor(public parentservice: ParentService) { }
   showimage2 = this.parentservice.showimage2;
   showimage1 = this.parentservice.showimage1;
   log = console.log("change took place");
@@ -25,9 +25,10 @@ export class ImagesComponent implements OnInit {
   //   this.showimage1 = false;
   // }
   ngOnInit() {
-  //   this.parentservice.change.subscribe(this.showimage1 => {
-  //     this.showimage1 = this.showimage1;
-  // }
-  // showimage2 = true;
-  // showimagw1 = false;
+    //   this.parentservice.change.subscribe(this.showimage1 => {
+    //     this.showimage1 = this.showimage1;
+    // }
+    // showimage2 = true;
+    // showimagw1 = false;
+  }
 }
